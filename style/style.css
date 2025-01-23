@@ -14,62 +14,112 @@
   font-weight: 400;
   font-style: normal;
 }
+
 /* share style  */
-.weight-style{
+.width-style {
   max-width: 1400px;
 }
 
 /* banner style  */
-.container{
+.container {
   display: flex;
- justify-content:space-between;
- border: 1px solid black;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
 }
-.banner-span-one{
+
+
+
+.banner-span-one {
   margin-left: 50px;
 }
-.banner-title{
+
+.banner-title {
   font-size: 3.7rem;
   font-weight: 700;
 
 }
-#banner-span-one{
+
+#banner-span-one {
   color: orange;
 }
-#banner-span-two{
+
+#banner-span-two {
   color: rgba(1, 172, 253, 1);
 }
-.banner-description{
+
+.banner-description {
   color: black;
   font-size: 1.25rem;
 }
-.banner-button{
+
+.banner-button {
   font-size: 1.25rem;
   color: white;
   background-color: black;
- border-radius: 8px;
-height: 50px;
-width: 197px;
- 
- 
+  border-radius: 8px;
+  height: 50px;
+  width: 197px;
+
+
 }
 
 /* 3 card section  */
-.care-countainer{
-display:grid;
-grid-template-columns: repeat(3,1fr);
-gap: 100px;
-}
-.card{
-  border-radius: 8px;
-}
- .card-1{
-  background-image: linear-gradient(to top,rgba(255, 255, 255, 1),rgba(255, 255, 255, 1),rgba(255, 255, 255, 1),rgba(222, 245, 255, 1));
+.card-header-title {
+  text-align: center;
 
- }
- .card-2{
-  background-image: linear-gradient(to top, white ,white,white ,rgba(255, 244, 220, 1));
- }
- .card-3{
-  background-image: linear-gradient(to top, white ,white,white ,rgba(242, 232, 255, 1));
- }
+}
+
+.care-countainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+
+
+.card {
+  border-radius: 8px;
+  text-align: center;
+
+}
+
+.card-1 {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(222, 245, 255, 1));
+
+}
+
+.card-2 {
+  background-image: linear-gradient(to top, white, white, white, rgba(255, 244, 220, 1));
+}
+
+.card-3 {
+  background-image: linear-gradient(to top, white, white, white, rgba(242, 232, 255, 1));
+}
+
+/* yollow buttlon part  */
+.button-container {
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 30px;
+
+
+}
+
+.previous-button,
+.next-button {
+  color: white;
+  background-color: orange;
+  padding: 20px;
+  font-size: 1.rem;
+  border-radius: 50%;
+  border: none;
+
+}
+
+.previous-button {
+  margin-right: 20px;
+}
+
+/* Our stories section  */
