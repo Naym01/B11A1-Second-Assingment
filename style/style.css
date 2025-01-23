@@ -58,11 +58,18 @@ width: 197px;
 .care-countainer{
 display:grid;
 grid-template-columns: repeat(3,1fr);
+gap: 100px;
 }
 .card{
   border-radius: 8px;
 }
  .card-1{
-  background-image: linear-gradient(to top,rgba(222, 245, 255, 1),rgba(112, 30, 30, 0));
+  background-image: linear-gradient(to top,rgba(255, 255, 255, 1),rgba(255, 255, 255, 1),rgba(255, 255, 255, 1),rgba(222, 245, 255, 1));
 
+ }
+ .card-2{
+  background-image: linear-gradient(to top, white ,white,white ,rgba(255, 244, 220, 1));
+ }
+ .card-3{
+  background-image: linear-gradient(to top, white ,white,white ,rgba(242, 232, 255, 1));
  }
