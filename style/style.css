@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* share style  */
+.weight-style{
+  max-width: 1400px;
+}
+
+/* banner style  */
+.container{
+  display: flex;
+ justify-content:space-between;
+ border: 1px solid black;
+}
+.banner-span-one{
+  margin-left: 50px;
+}
+.banner-title{
+  font-size: 3.7rem;
+  font-weight: 700;
+
+}
+#banner-span-one{
+  color: orange;
+}
+#banner-span-two{
+  color: rgba(1, 172, 253, 1);
+}
+.banner-description{
+  color: black;
+  font-size: 1.25rem;
+}
+.banner-button{
+  font-size: 1.25rem;
+  color: white;
+  background-color: black;
+ border-radius: 8px;
+height: 50px;
+width: 197px;
+ 
+ 
+}
+
+/* 3 card section  */
+.care-countainer{
+display:grid;
+grid-template-columns: repeat(3,1fr);
+}
+.card{
+  border-radius: 8px;
+}
+ .card-1{
+  background-image: linear-gradient(to top,rgba(222, 245, 255, 1),rgba(112, 30, 30, 0));
+
+ }
