@@ -23,6 +23,16 @@
 .text-aline{
   text-align: center;
 }
+/* nav bar part  */
+
+
+
+
+
+
+
+
+
 
 /* banner style  */
 .banner{
@@ -139,7 +149,13 @@
 
 /* Our stories section  */
 
-
+.stories-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
 
 
 
@@ -149,7 +165,12 @@
 
 
 /* stories 2nd part  */
-
+.stories-2nd-column{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-between;
+  align-items: center;
+}
 .view-button{
  display: block;
  margin: 0 auto;
@@ -157,6 +178,9 @@
 }
 
 /* footer section  */
+
+/* frist column  */
+
 footer{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -174,6 +198,15 @@ footer{
 .beg-kids{
   display: flex;
 }
+.logo-img{
+  color: white;
+  background-color: white;
+}
+/* second column  */
+
+
+
+/* thirs column  */
 .third-column ul{
   display: flex;
   margin-left: 75 px;
@@ -185,7 +218,7 @@ ul li{
   list-style: none;
 }
 
-ul a{
+.second-navlink a{
   text-decoration: none;
   color: white;
 }
