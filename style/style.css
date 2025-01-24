@@ -17,10 +17,17 @@
 
 /* share style  */
 .width-style {
-  max-width: 1400px;
+  max-width: 1100px;
+ margin: 0 auto;
+}
+.text-aline{
+  text-align: center;
 }
 
 /* banner style  */
+.banner{
+  background-color: white;
+}
 .container {
   display: flex;
   justify-content: space-between;
@@ -62,6 +69,14 @@
   width: 197px;
 
 
+}
+/* main  */
+.bg-img{
+  background-image: 
+  linear-gradient(to top, rgba(254, 163, 1, 0.31), rgba(255, 241, 241, 0.719) 50%, rgba(240, 239, 239, 0) 100%),
+  url(../assets/bg.png);
+  /* background-image: linear-gradient(to top,white,   ), url(../assets/bg.png);
+  background-image: url(../assets/bg.png); */
 }
 
 /* 3 card section  */
@@ -123,3 +138,54 @@
 }
 
 /* Our stories section  */
+
+
+
+
+
+
+
+
+
+
+/* stories 2nd part  */
+
+.view-button{
+ display: block;
+ margin: 0 auto;
+  
+}
+
+/* footer section  */
+footer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content:center;
+  align-items: center;
+ 
+  background-color: rgb(25, 183, 245);
+
+
+}
+#frist-column{
+  max-width:1400px;
+  width: 100%;
+}
+.beg-kids{
+  display: flex;
+}
+.third-column ul{
+  display: flex;
+  margin-left: 75 px;
+
+
+}
+
+ul li{
+  list-style: none;
+}
+
+ul a{
+  text-decoration: none;
+  color: white;
+}
