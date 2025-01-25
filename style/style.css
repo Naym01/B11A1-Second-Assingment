@@ -14,22 +14,91 @@
   font-weight: 400;
   font-style: normal;
 }
-
+ body{
+  margin: 0;
+  padding: 0;
+ }
 /* share style  */
 .width-style {
   max-width: 1100px;
  margin: 0 auto;
+ 
 }
 .text-aline{
   text-align: center;
 }
+
+
+
+
+
 /* nav bar part  */
 
+.nav-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content:flex-start;
+  align-items:center;
+  margin-bottom: 20px;
+ 
+}
+.nav-links{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content:space-between;
+ 
+  
+ column-gap: 20px;
 
 
+}
 
+.nav-links li a{
+  text-decoration: none;
 
+}
+.firstlogo-img{
+  display: flex;
+}
+.nav-link1{
+  color:rgba(255, 158, 3, 1) ;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.nav-link2{
+  color:#01ACFD ;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.nav-link3{
+  color:#05D4DF ;
+  font-size: 1.25rem;
+  font-weight: 600;
+ 
+}
+.nav-link4{
+  color:#5D58EF ; 
+  font-size: 1.25rem;
+  font-weight: 600;
+ 
+}
 
+.contact-button{
+  width: 197px;
+  height: 50px;
+  color: white;
+  background-color: orange;
+  border-radius: 12px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: 600; 
+  
+}
+
+.font-side-button{
+  display: flex;
+  justify-content:end;
+}
 
 
 
@@ -41,10 +110,13 @@
 .container {
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
+ 
   align-items: center;
 }
 
+.part-one{
+  margin: 0px 50px 0px 0;
+}
 
 
 .banner-span-one {
@@ -68,6 +140,7 @@
 .banner-description {
   color: black;
   font-size: 1.25rem;
+ font-weight: 1000;
 }
 
 .banner-button {
@@ -80,6 +153,8 @@
 
 
 }
+
+
 /* main  */
 .bg-img{
   background-image: 
@@ -92,19 +167,35 @@
 /* 3 card section  */
 .card-header-title {
   text-align: center;
+  margin: 50px 0;
+  font-size: 2.75rem;
+  font-weight: 700;
 
 }
 
 .care-countainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 100px;
+  justify-content: center;
+
+  gap:20px;
+ 
+ 
+ 
 }
 
 
 .card {
   border-radius: 8px;
   text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding-top: 40px;
+
+ 
+  height:60vh;
+
+
+
 
 }
 
@@ -115,10 +206,69 @@
 
 .card-2 {
   background-image: linear-gradient(to top, white, white, white, rgba(255, 244, 220, 1));
+ 
 }
 
 .card-3 {
   background-image: linear-gradient(to top, white, white, white, rgba(242, 232, 255, 1));
+}
+.card-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.card-description{
+  color: rgba(128, 128, 128, 1);
+}
+.card-button1{
+  color: #64C8FF;
+  font-weight: 700;
+  font-size: 0.9;
+  border-style: none;
+  background-color: white;
+
+}
+.card-button1{
+  color: #64C8FF;
+  font-weight: 700;
+  font-size: 0.9;
+  border-style: none;
+  background-color: white;
+
+}
+.card-button1{
+  color: #64C8FF;
+  font-weight: 700;
+ 
+  font-size: 0.9;
+  border-style: none;
+  background-color: white;
+
+}
+.card-button1{
+  color: #64C8FF;
+  font-weight: 700;
+ 
+  font-size: 0.9;
+  border-style: none;
+  background-color: white;
+
+}
+.card-button2{
+  color: #F0AA00;
+  font-weight: 700;
+ 
+  font-size: 0.9;
+  border-style: none;
+  background-color: white;
+
+}
+.card-button3{
+  color: #8700FF;
+  font-weight: 700;
+  font-size: 0.9;
+  border-style: none;
+  background-color: white;
+
 }
 
 /* yollow buttlon part  */
@@ -140,12 +290,20 @@
   font-size: 1.rem;
   border-radius: 50%;
   border: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  height: 60px;
+  width: 60px;
 
 }
 
 .previous-button {
   margin-right: 20px;
 }
+
+
+
+
 
 /* Our stories section  */
 
@@ -155,9 +313,31 @@
   align-items: center;
   gap: 10px;
   width: 100%;
+  border: 1px solid;
+  height: 90vh;
+
 }
 
+.stories-heading{
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
 
+}
+.stories-1st-img{
+  width: 100%;
+ 
+  padding-bottom: 80px;
+}
+
+.stories-1st-column{
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 14px;
+}
+.stories-2nd-column{
+ 
+}
 
 
 
@@ -170,7 +350,13 @@
   grid-template-columns: repeat(2,1fr);
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
+
 }
+.stories-2nd-sub-column{
+  background-color: white;
+}
+
 .view-button{
  display: block;
  margin: 0 auto;
