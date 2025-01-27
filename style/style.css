@@ -585,7 +585,7 @@ ul li{
     flex-direction: column;
   justify-content: space-between;
     align-items:center;
-    width: 650px;
+    width: 576px;
     height: 20px;
     
   
@@ -620,25 +620,47 @@ ul li{
     flex-direction: column-reverse;
   }
   
-  .care-countainer,
-  .stories-2nd-column,
-  footer
+  .card-countainer
+  
   {
   
     grid-template-columns: repeat(1, 1fr);
     
+  }
+  .stories-2nd-column{
+    grid-template-columns: repeat(1, 1fr);
   }
   
  
   footer{
    
     grid-template-columns: repeat(1,1fr);
+    
 
   }
+
+
+
+
   body{
     max-width: 576px;
+    margin: 0 auto;
   }
   
+  .part-two{
+    max-width: 540px;
+    
+   
+  }
+  .banner-img{
+    width: 100%;
+  
+    margin: 0 auto;
+  }
+  .part-one{
+    max-width: 540px; 
+    margin: 0 auto;
+  }
   }
   
   
